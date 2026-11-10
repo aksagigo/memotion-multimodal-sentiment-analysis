@@ -18,14 +18,16 @@ Hyperparameters and fusion weights were selected using validation data. Final ev
 
 ## Test Results
 
+
 | Model | Accuracy | Macro F1 |
 |---|---:|---:|
 | Text-only | 0.4152 | 0.3261 |
-| Image-only | 0.4219 | 0.3341 |
-| Early fusion | **0.4371** | **0.3371** |
-| Late fusion | 0.4238 | 0.3352 |
+| Image-only | 0.4238 | 0.3351 |
+| Early fusion | 0.4219 | 0.3327 |
+| Late fusion | 0.4219 | 0.3318 |
 
-Early fusion achieved the highest accuracy and macro F1 on the held-out test set. Improvements were modest, indicating that combining image and text features does not automatically solve the challenges of meme sentiment classification.
+  
+The image-only model achieved the highest test accuracy (0.4238) and macro F1 (0.3351). Early and late fusion performed similarly, but neither outperformed the image-only baseline. The differences between models were small.
 
 ## Evaluation and Error Analysis
 The project includes confusion matrices, error analysis and examples of misclassified memes. Negative sentiment is particularly challenging because of class imbalance and ambiguity in meme content.
@@ -34,7 +36,7 @@ The project includes confusion matrices, error analysis and examples of misclass
 
 ![Error analysis](error_analysis.png)
 
-![Misclassified memes](misclassified_memes.png)
+![Misclassified memes](misclassified_memes(1).png)
 
 ## Repository Files
 - `Copy_of_Memotion_Multimodal_Project (2).ipynb` — Experiment notebook.
