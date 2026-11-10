@@ -36,7 +36,7 @@ The project includes confusion matrices, error analysis and examples of misclass
 
 ![Error analysis](error_analysis.png)
 
-![Misclassified memes](misclassified_memes(1).png)
+![Misclassified memes](misclassified_memes.png)
 
 ## Repository Files
 - `Copy_of_Memotion_Multimodal_Project (2).ipynb` — Experiment notebook.
